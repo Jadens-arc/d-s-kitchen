@@ -1,0 +1,12 @@
+{
+  "name": "darius",
+  "version": "1.0.0",
+  "description": "The Official Website for Darius Kitchen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --no-browser"
+  },
+  "author": "Jaden Arceneaux",
+  "license": "ISC"
+}
