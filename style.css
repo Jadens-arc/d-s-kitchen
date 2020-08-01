@@ -2,7 +2,45 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: #6e5773;
+}
+
+.header {
+  background-color: #d45079;
+  color: #e9e1cc;
+  padding: 20px;
+
+  font-family: 'Press Start 2P', cursive;
+
+
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.button{
+  display: block;
+  text-decoration: none;
+  color: #ea9085;
+  font-size: 20px;
+  height: 100%;
+  transition: all ease 0.2s;
+  transform: translateY(25%);
+  filter: drop-shadow(1px 1px black);
+
+}
+
+
 
 .title {
-  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+}
+
+.button:hover {
+  transform: translateY(10%);
 }
