@@ -8,5 +8,8 @@
     "start": "live-server --no-browser"
   },
   "author": "Jaden Arceneaux",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }
