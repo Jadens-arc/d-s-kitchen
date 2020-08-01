@@ -6,6 +6,7 @@
   <title>Darius Kitchen</title>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="https://use.fontawesome.com/a05f30e997.js"></script>
 </head>
 <header class="header">
   <h1 class="title">
@@ -19,6 +20,29 @@
   </div>
 </header>
 <body>
-  
+  <div class="carousel">
+    <button class="scrollBtn"id="prevBtn">
+      <i class="fa fa-arrow-circle-left" aria-hidden="true" style="color: green;"></i>
+    </button>
+    <div class="carousel-container">
+      <div class="carousel-slide">
+        <img class="image" src="./assets/food6.jpg" id="lastClone" alt="">
+        <img class="image" src="./assets/food1.PNG" alt="">
+        <img class="image" src="./assets/food2.jpg" alt="">
+        <img class="image" src="./assets/food3.jpg" alt="">
+        <img class="image" src="./assets/food4.jpg" alt="">
+        <img class="image" src="./assets/food5.jpg" alt="">
+        <img class="image" src="./assets/food6.jpg" alt="">
+        <img class="image" src="./assets/food1.PNG" id="firstClone" alt="">
+      </div>
+    </div>
+    <button class="scrollBtn" id="nextBtn">
+      <i class="fa fa-arrow-circle-right" aria-hidden="true" style="color: red;"></i>
+    </button>
+  </div>
+
+ 
+  <script defer src="app.js"></script>
+
 </body>
 </html>
